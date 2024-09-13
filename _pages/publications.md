@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: I have no publication yet, hoping to add some creative and meaningful content to this page soon
 nav: true
 nav_order: 2
