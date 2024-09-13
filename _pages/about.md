@@ -5,7 +5,7 @@ permalink: /
 subtitle: undergraduate student | computer science
 profile:
   align: right
-  image: 
+  image: cat.jepg
   image_circular: false # crops the image to make it circular
   more_info: >
     <!--<p>555 your office number</p>
@@ -17,6 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm an undergraduate student from Harbin Institute of Technology, majoring in computer science. I'm exploring in this vast area and setting up my personal website.
+Hi there! I'm an undergraduate student from Harbin Institute of Technology, majoring in computer science. I'm exploring in this vast area and setting up my personal website. I put a picture of a cat in my school because I don't has a satisfying photograph of myself yet.
 
 
