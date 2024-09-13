@@ -134,7 +134,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Michael's Blog # blog_name will be displayed in your blog page
-blog_description: Updating and sharing!
+blog_description: learn and share
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -143,7 +143,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
