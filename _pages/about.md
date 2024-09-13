@@ -5,7 +5,7 @@ permalink: /
 subtitle: undergraduate student | computer science
 profile:
   align: right
-  image: cat.jepg
+  image: cat.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <!--<p>555 your office number</p>
