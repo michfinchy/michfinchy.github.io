@@ -19,6 +19,6 @@ social: true # includes social icons at the bottom of the page
 
 Hi there! I'm an undergraduate student from Harbin Institute of Technology, majoring in computer science. I'm exploring in this vast area and setting up my personal website. 
 
-I put a picture of a cat in my school because I don't have a satisfying photograph of myself yet...
+I chose a picture of a cat in my school to display on the website because I haven't got a satisfying photograph of myself yet...
 
 
