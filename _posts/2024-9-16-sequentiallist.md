@@ -3,8 +3,8 @@ layout: post
 title: Sequential list
 date: 2024-9-16
 description: This is a study note on sequential list in data structure, implemented using the C programming language.
-tags: linear list
-categories: data structure
+tags: LinearList Study
+categories: DataStructure
 ---
 
 #### 1.Introduction
@@ -105,7 +105,7 @@ There are some macro definitions that will be used
 typedef int Status;
 ```
 
-**reset to empty list**
+**1) reset to empty list**
 
 Here is one way to reset:
 
@@ -151,7 +151,7 @@ L.listlen = 0;
 //memset will set every int to 0, float to 0.0 and pointer to NULL
 ```
 
-**Get the value of a certain data element**
+**2) Get the value of a certain data element**
 
 Note: In C language, pointer parameters are used to modify external variables. When a pointer is passed as a function parameter, it allows direct modification of the value of the variable the pointer points to, thereby achieving the effect of an output parameter.
 
@@ -171,7 +171,7 @@ Status GetElem(SqList L, int i, Elemtype *e){
 
 Of course, you can choose not to use a pointer and directly return the data element instead.
 
-**Locate a given element**
+**3) Locate a given element**
 
 This operation is the basic of many corresponding algorithms. First we need to prepare an algorithm for comparing two data elements.
 
@@ -218,7 +218,7 @@ With the this function, we can also find the former or latter element of our tar
 
 With the data structure and its basic operations prepared, we can realize some algorithms such as inserting or deleting a data element.
 
-**Insert a data element**
+**1) Insert a data element**
 
 To insert a data element at a specific position, we need to shift the data element at the position as well as the subsequent elements one step backward. In this case, we get an empty place to cover with our target data element.
 
@@ -260,7 +260,7 @@ Status InsertElem(SqList *L, Elemtype E, int position){
 }
 ```
 
-**Delete a data element**
+**2) Delete a data element**
 Deleting a data element is kind of like inserting one. All we need to do is over the former position with current data element.
 
 ```c
